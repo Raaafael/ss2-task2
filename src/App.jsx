@@ -3,10 +3,28 @@
 import axios from "axios"
 import { useState, useEffect } from "react"
 
-export default function App() {
+const API_KEY = "https://jsonplaceholder.typicode.com/todos/1"
 
+export default function App() {
+  const [user, setUsers] = useState()
+
+  const handleFetchData = async () => {
+    try {
+
+    } catch (e) {
+
+    };
+  };
+
+  useEffect(() => {
+    
+  }, []);
 
   return (
-    <>hello world!</>
+    <>
+      {
+
+      }
+    </>
   )
 };
